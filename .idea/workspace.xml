@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/AppVideo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheSidebar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/components/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +23,13 @@
       <list>
         <option value="Go File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nuxt-go-client" />
   </component>
   <component name="ProjectId" id="1W702LZsHONX75f6sBxVs0sxB6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,6 +81,10 @@
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2163" y="375" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578490245331" />
+    <state x="2138" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578495812293">
+      <screen x="1440" y="35" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578495812293" />
     <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1578495713029">
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
