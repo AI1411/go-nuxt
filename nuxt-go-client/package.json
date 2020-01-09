@@ -14,7 +14,9 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.9.2",
     "@nuxtjs/bulma": "^1.2.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-youtube": "^1.4.0",
+    "vue": "latest"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",

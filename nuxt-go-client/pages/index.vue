@@ -42,7 +42,7 @@
           params: {
             pageToken: this.nextPageToken
           }
-        }
+        };
         this.$store.dispatch('fetchPopularVideos', payload)
       }
     },
