@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlewares/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/firebase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/favorite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/migration.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +63,26 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.db: Compose Deployment">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go-nuxt-youtube/tools">
     <configuration name="go build go-nuxt-youtube" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-nuxt-youtube" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/server.go" />
       <package value="go-nuxt-youtube" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-nuxt-youtube/tools" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-nuxt-youtube" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/tools/migration.go" />
+      <package value="go-nuxt-youtube/tools" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
@@ -82,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-nuxt-youtube/tools" />
         <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
         <item itemvalue="Go Build.go build go-nuxt-youtube" />
       </list>
@@ -130,38 +149,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="603" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578549105843" />
-    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1578552576413">
+    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1578559839369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023922" />
-    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578552576413" />
+    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578559839369" />
     <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805429" />
-    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1578552576411">
+    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1578559839367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
-    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578552576411" />
+    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578559839367" />
     <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805427" />
-    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1578552576409">
+    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1578559839366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023920" />
-    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578552576409" />
+    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578559839366" />
     <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805426" />
-    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1578552576412">
+    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1578559839368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
-    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578552576412" />
+    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578559839368" />
     <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805428" />
     <state x="2070" y="316" width="659" height="518" key="find.popup" timestamp="1578493962344">
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2070" y="316" width="659" height="518" key="find.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578493962344" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578554150962">
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578558815637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578499691065" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578554150962" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578558815637" />
   </component>
 </project>
