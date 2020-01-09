@@ -11,12 +11,6 @@
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

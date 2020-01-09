@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <div class="columns">
-      <div class="column is-5">
+      <div class="column is-6">
         <div class="block video-player">
           <youtube
             :video-id="this.$route.params.id"
@@ -53,13 +53,15 @@
   }
 </script>
 
-<style scoped>
+<style>
   iframe {
     width: 100%;
     height: 500px;
   }
-
   .video-player {
-    max-width: 700px;
+    max-width: 880px;
+  }
+  .fa-heart.active {
+    color: #FF1493;
   }
 </style>
