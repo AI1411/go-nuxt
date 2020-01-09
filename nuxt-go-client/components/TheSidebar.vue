@@ -8,6 +8,9 @@
                 ホーム
               </nuxt-link>
             </li>
+            <li v-if="isLoggedIn">
+              <nuxt-link to="/favorite">お気に入り</nuxt-link>
+            </li>
           </ul>
         </aside>
       </div>
@@ -16,7 +19,11 @@
 
 <script>
     export default {
-        name: "TheSidebar"
+        computed: {
+          isLoggedIn() {
+            return !!this.$store.getters.isLoggedIn
+          }
+        }
     }
 </script>
 
