@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/AppVideo.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheSidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/login/index.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/search/index.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/signup/index.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/video/_id.vue" afterDir="false" />
@@ -14,12 +15,7 @@
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nuxt-go-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W702LZsHONX75f6sBxVs0sxB6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
