@@ -14,9 +14,11 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.9.2",
     "@nuxtjs/bulma": "^1.2.1",
+    "cookie-universal-nuxt": "^2.1.0",
+    "firebase": "^7.6.1",
     "nuxt": "^2.0.0",
-    "vue-youtube": "^1.4.0",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-youtube": "^1.4.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
