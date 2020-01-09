@@ -18,6 +18,7 @@
     "cookie-universal-nuxt": "^2.1.0",
     "firebase": "^7.6.1",
     "nuxt": "^2.0.0",
+    "qs": "^6.9.1",
     "vue": "latest",
     "vue-youtube": "^1.4.0"
   },
