@@ -13,6 +13,8 @@ import (
 func FetchMostPopularVideos() echo.HandlerFunc {
 	return func(c echo.Context) error {
 
+		yts := c.Get("yts").(*youtube.Service)
+
 		key := os.Getenv("API_KEY")
 
 		ctx := context.Background()

@@ -5,10 +5,11 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/sirupsen/logrus"
+	"go-nuxt-youtube/middlewares"
 	"go-nuxt-youtube/routes"
 )
 
-func init()  {
+func init() {
 	err := godotenv.Load()
 	if err != nil {
 		logrus.Fatal("Error loading .env")
@@ -20,9 +21,10 @@ func init()  {
 func main() {
 	e := echo.New()
 
-	//middleware
+	//middlewares
 	e.Use(middleware.Logger())
 	e.Use(middleware.CORS())
+	e.Use(middlewares.YouTubeService())
 
 	//routes
 	routes.Init(e)
