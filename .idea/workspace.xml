@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nuxt-go-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W702LZsHONX75f6sBxVs0sxB6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,7 +54,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml.db: Compose Deployment">
     <configuration name="go build go-nuxt-youtube" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-nuxt-youtube" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -61,8 +63,22 @@
       <package value="go-nuxt-youtube" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
         <item itemvalue="Go Build.go build go-nuxt-youtube" />
       </list>
     </recent_temporary>
@@ -102,6 +118,10 @@
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2138" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578495812293" />
+    <state x="775" y="170" key="#docker-compose.yml.db:_Compose_Deployment" timestamp="1578554991956">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="775" y="170" key="#docker-compose.yml.db:_Compose_Deployment/0.0.1440.900@0.0.1440.900" timestamp="1578554991956" />
     <state x="603" y="0" key="CommitChangelistDialog2" timestamp="1578549105843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
