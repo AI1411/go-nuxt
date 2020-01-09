@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/databases/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/favorite.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/migration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt-go-client/plugins/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/api/toggle_favorite_video.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/auth.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/pages/video/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/pages/video/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/api/get_video.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/api/get_video.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +39,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
         <option value="Go File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nuxt-go-client" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1W702LZsHONX75f6sBxVs0sxB6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,6 +65,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -68,7 +74,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-nuxt-youtube/tools">
+  <component name="RunManager" selected="Go Build.go build go-nuxt-youtube">
     <configuration name="go build go-nuxt-youtube" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-nuxt-youtube" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -100,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-nuxt-youtube" />
         <item itemvalue="Go Build.go build go-nuxt-youtube/tools" />
         <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
-        <item itemvalue="Go Build.go build go-nuxt-youtube" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -149,38 +157,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="603" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578549105843" />
-    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1578559839369">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023922" />
-    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578559839369" />
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805429" />
-    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1578559839367">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
-    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578559839367" />
-    <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805427" />
-    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1578559839366">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023920" />
-    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578559839366" />
-    <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805426" />
-    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1578559839368">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
-    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578559839368" />
-    <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805428" />
-    <state x="2070" y="316" width="659" height="518" key="find.popup" timestamp="1578493962344">
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1578572447662">
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
-    <state x="2070" y="316" width="659" height="518" key="find.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578493962344" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578558815637">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578572447662" />
+    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578564120016" />
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805429" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1578572447660">
+      <screen x="1440" y="35" width="1920" height="1080" />
     </state>
-    <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578499691065" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578558815637" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578572447660" />
+    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578564120015" />
+    <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805427" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1578572447659">
+      <screen x="1440" y="35" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578572447659" />
+    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578564120014" />
+    <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805426" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1578572447661">
+      <screen x="1440" y="35" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578572447661" />
+    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578564120015" />
+    <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805428" />
+    <state x="2070" y="316" width="659" height="518" key="find.popup" timestamp="1578576065679">
+      <screen x="1440" y="35" width="1920" height="1080" />
+    </state>
+    <state x="2070" y="316" width="659" height="518" key="find.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578576065679" />
+    <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1578577344773">
+      <screen x="1440" y="35" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578577344773" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578561501191" />
   </component>
 </project>
