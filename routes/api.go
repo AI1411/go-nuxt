@@ -17,5 +17,6 @@ func Init(e *echo.Echo)  {
 	fg := g.Group("/favorite", middlewares.FirebaseGuard())
 	{
 		fg.POST("/:id/toggle", api.ToggleFavoriteVideo())
+		fg.GET("", api.FetchFavoriteVideos())
 	}
 }
