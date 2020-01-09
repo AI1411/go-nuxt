@@ -25,7 +25,7 @@ func SearchVideos() echo.HandlerFunc {
 
 		res, err := call.Do()
 		if err != nil {
-			logrus.Fatalf("Error calling YouTube API: %v", err)
+			logrus.Fatalf("Error calling Youtube API: %v", err)
 		}
 
 		return c.JSON(fasthttp.StatusOK, res)
