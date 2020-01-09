@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware/youtube.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/AppVideo.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheSidebar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/api/get_video.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="2163" y="375" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578490245331">
       <screen x="1440" y="35" width="1920" height="1080" />
@@ -84,33 +95,38 @@
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2138" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578495812293" />
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1578501023922">
-      <screen x="1440" y="35" width="1920" height="1080" />
+    <state width="668" height="226" key="GridCell.Tab.0.bottom" timestamp="1578535122659">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023922" />
+    <state width="668" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578535122659" />
     <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805429" />
-    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1578501023921">
-      <screen x="1440" y="35" width="1920" height="1080" />
+    <state width="668" height="226" key="GridCell.Tab.0.center" timestamp="1578535122658">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.center/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
+    <state width="668" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578535122658" />
     <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805427" />
-    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1578501023920">
-      <screen x="1440" y="35" width="1920" height="1080" />
+    <state width="668" height="226" key="GridCell.Tab.0.left" timestamp="1578535122657">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.left/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023920" />
+    <state width="668" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578535122657" />
     <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805426" />
-    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1578501023921">
-      <screen x="1440" y="35" width="1920" height="1080" />
+    <state width="668" height="226" key="GridCell.Tab.0.right" timestamp="1578535122658">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="286" key="GridCell.Tab.0.right/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578501023921" />
+    <state width="668" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578535122658" />
     <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.877/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578488805428" />
     <state x="2070" y="316" width="659" height="518" key="find.popup" timestamp="1578493962344">
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2070" y="316" width="659" height="518" key="find.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578493962344" />
-    <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup" timestamp="1578499691065">
-      <screen x="1440" y="35" width="1920" height="1080" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578535111664">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578499691065" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578535111664" />
   </component>
 </project>
