@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a24444-4d9e-457b-b026-06cc15698129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/AppVideo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/search/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/signup/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/pages/video/_id.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/plugins/cookies-to-state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/plugins/firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/plugins/vue-youtube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/routes/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt-go-client/store/request-client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt-go-client/components/TheHeader.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +35,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nuxt-go-client" />
   </component>
   <component name="ProjectId" id="1W702LZsHONX75f6sBxVs0sxB6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -146,10 +134,10 @@
       <screen x="1440" y="35" width="1920" height="1080" />
     </state>
     <state x="2070" y="316" width="659" height="518" key="find.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578493962344" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578547213255">
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1578554150962">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="2065" y="276" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.35.1920.1080@1440.35.1920.1080" timestamp="1578499691065" />
-    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578547213255" />
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578554150962" />
   </component>
 </project>
